@@ -1,5 +1,8 @@
 # Covisitation-hypergraphs
-This repository contains data and Jupyter notebooks used to generate results presented in [citation]. 
+This repository contains Jupyter notebooks used to generate results presented in [citation]. The data used in the codes are available from Yabe et al. 2024 [1]
 
 # Abstract
 Understanding human mobility is essential for applications ranging from urban planning to public health. Traditional mobility models such as flow networks and colocation matrices capture only pairwise interactions between discrete locations, overlooking higher-order relationships among locations (i.e., mobility flow among two or more locations). To address this, we propose co-visitation hypergraphs, a model that leverages temporal observation windows to extract group interactions between locations from individual mobility trajectory data. Using frequency pattern mining, our approach constructs hypergraphs that capture dynamic mobility behaviors across different spatial and temporal scales. We validate our method on a publicly available mobility dataset and demonstrate its effectiveness in analyzing city-scale mobility patterns, detecting shifts during external disruptions such as extreme weather events, and examining how a location's connectivity (degree) relates to the number of points of interest (POIs) within it. Our results demonstrate that our hypergraph-based mobility analysis framework is a valuable tool with potential applications in diverse fields such as public health, disaster resilience, and urban planning.
+
+# References
+1. Takahiro Yabe, Kota Tsubouchi, Toru Shimizu, Yoshihide Sekimoto, Kaoru Sezaki, Esteban Moro, and Alex Pentland. Yjmob100k: City-scale and longitudinal dataset of anonymized human mobility trajectories, March 2024.
